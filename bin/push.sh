@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker push nowsci/sshtunnel:latest
+docker push vinhthieu/sshtunnel:latest
