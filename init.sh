@@ -1,5 +1,7 @@
 chmod 400 $KEY
 
+mkdir -p ~/.ssh
+
 echo "Host *" >> ~/.ssh/config
 echo "    PubkeyAcceptedKeyTypes=+ssh-rsa" >> ~/.ssh/config
 echo "    HostKeyAlgorithms=+ssh-rsa" >> ~/.ssh/config
